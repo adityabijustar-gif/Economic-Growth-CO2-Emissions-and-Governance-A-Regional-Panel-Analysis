@@ -185,16 +185,3 @@ This project demonstrates:
 
 ---
 
-### Why this version is more readable
-
-✔ Shorter title lines
-✔ Clear section hierarchy
-✔ Bullet points instead of dense paragraphs
-✔ White space between ideas
-✔ Matches academic + GitHub norms
-
-If you want next, I can:
-
-* Format this as a **journal-style “Data” section**, or
-* Write a **methods appendix** explaining the code line-by-line, or
-* Create a **clean figures README** explaining each plot before you generate it.
