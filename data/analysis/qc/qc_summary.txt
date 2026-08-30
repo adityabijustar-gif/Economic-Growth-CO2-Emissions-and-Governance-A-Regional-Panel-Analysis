@@ -1,0 +1,19 @@
+REGIONAL PANEL QUALITY CONTROL REPORT
+==================================================
+Country panel rows: 7,595
+Region panel rows: 175
+Regional sample: 1990-2024
+Regions: China, DevelopedAsia_Oceania, Europe_NorthAmerica, Global_South, India
+
+ERRORS:
+- None
+
+WARNINGS:
+- Europe_NorthAmerica: contributing-country count changes from 42 to 43 across years.
+- Global_South: contributing-country count changes from 132 to 146 across years.
+
+Generated QC files:
+- region_time_coverage.csv
+- region_year_country_coverage.csv
+- region_coverage_summary.csv
+- aggregation_recheck.csv

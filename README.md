@@ -1,211 +1,233 @@
-# Economic Growth, CO₂ Emissions, and Governance  
+# Economic Growth, CO₂ Emissions, and Governance
+
 ## A Regional Panel Analysis
 
-**Work in Progress – Climate Economics Research Project**
+**Independent Climate Economics Research Project**
 
----
+## Project Overview
 
-## 1. Project Overview
+This project investigates the relationship between economic development and
+carbon emissions, with particular attention to regional heterogeneity,
+decoupling, and the potential role of institutional quality.
 
-This project investigates the relationship between **economic growth** and **carbon emissions**, with a focus on **regional heterogeneity** and the role of **institutional quality**.
+The central question is whether higher GDP per capita is systematically
+associated with higher CO₂ emissions per capita, and whether this relationship
+changes across different stages and patterns of development.
 
-The central question is whether economic growth necessarily leads to higher emissions — and whether strong governance can weaken this link.
+The project uses a country-year panel constructed from World Bank data and a
+population-weighted regional panel covering five regional-development
+clusters.
 
-The analysis combines cross-country panel data with regional aggregation to examine long-run development–emissions dynamics.
+## Research Questions
 
----
+### Primary question
 
-## 2. Research Questions
+What is the relationship between GDP per capita and CO₂ emissions per capita
+across regions and over time?
 
-### Primary Question
+### Secondary questions
 
-> What is the relationship between GDP per capita and CO₂ emissions per capita across regions and over time?
+- Does the income-emissions relationship differ systematically across
+  regional-development clusters?
+- Is there evidence of absolute or relative decoupling at higher income levels?
+- Is there empirical support for an Environmental Kuznets Curve relationship?
+- Do stronger institutions weaken the relationship between economic growth
+  and emissions?
 
-### Secondary Questions
+## Conceptual Framework
 
-- Does the income–emissions relationship differ systematically across regions?
-- Is there evidence of **decoupling** at higher income levels?
-- Do regions with stronger institutions emit less CO₂ at comparable income levels?
-- Is there empirical support for the **Environmental Kuznets Curve (EKC)** hypothesis?
+### Growth-emissions channel
 
----
+Economic development can affect emissions through several stages:
 
-## 3. Conceptual Framework
+- Early development: industrialisation, infrastructure expansion and greater
+  fossil-fuel use can increase emissions.
+- Later development: structural change towards services, technological
+  upgrading, energy efficiency and environmental regulation can weaken the
+  relationship between income and emissions.
 
-### 3.1 Growth–Emissions Channel
+This motivates testing for non-linear Environmental Kuznets Curve patterns.
 
-Economic development often follows a structural transition:
+### Governance channel
 
-- **Early development** → industrialisation → fossil fuel dependence → rising emissions  
-- **Later development** → services, technological upgrading, regulation → slower emissions growth  
+Institutional quality may affect emissions through:
 
-This motivates testing for an **Environmental Kuznets Curve (EKC)** relationship.
+- environmental regulation and enforcement,
+- renewable-energy investment,
+- carbon-pricing mechanisms,
+- green innovation,
+- infrastructure and energy policy.
 
-### 3.2 Governance Channel
+Governance is therefore treated as a potential mechanism that may alter the
+income-emissions relationship. The governance analysis is a planned extension
+and is not yet interpreted as an empirical result.
 
-Institutions may influence emissions through:
+## Data
 
-- Enforcement of environmental regulations  
-- Public investment in renewable energy  
-- Carbon pricing mechanisms  
-- Support for green innovation  
+### World Development Indicators
 
-**Key intuition:**  
-Income enables emissions reductions, but governance determines whether they occur.
+Core indicators are obtained from the World Bank World Development Indicators.
 
----
+| Concept | Indicator | Code |
+|---|---|---|
+| GDP per capita | GDP per capita, constant 2015 US$ | `NY.GDP.PCAP.KD` |
+| CO₂ emissions | CO₂ emissions excluding LULUCF per capita, AR5-consistent | `EN.GHG.CO2.PC.CE.AR5` |
+| Population | Population, total | `SP.POP.TOTL` |
 
-## 4. Data Sources
+The main sample begins in 1990.
 
-### Core Data
+## Dataset Construction
 
-Data are drawn from the **World Bank – World Development Indicators (WDI)**:
+The WDI download is transformed from wide format into a country-year panel.
 
-- GDP per capita (constant 2015 USD)  
-- CO₂ emissions per capita (AR5-consistent series)  
-- Total population  
+The cleaned country-level dataset is:
 
-### Governance Data (Planned Extension)
+`data/cleaned/wdi_gdp_co2_population_panel.csv`
 
-From the **World Bank – World Governance Indicators (WGI)**:
+Each row represents one country-year observation.
 
-- Government effectiveness  
-- Regulatory quality  
-- Rule of law  
+Core variables are:
 
-Time coverage: 1990–latest available year.
+- `country`
+- `iso3c`
+- `year`
+- `gdp_per_capita_const2015_usd`
+- `co2_per_capita_tons`
+- `population`
 
----
+## Regional Classification
 
-## 5. Dataset Construction
+Countries are assigned to five regional-development clusters:
 
-The current pipeline produces a clean **country–year panel dataset**.
+1. `Europe_NorthAmerica`
+2. `DevelopedAsia_Oceania`
+3. `China`
+4. `India`
+5. `Global_South`
 
-### Variables
+China and India are retained as standalone groups because of their population,
+economic scale and distinct development-emissions trajectories.
 
-| Variable | Description |
-|-----------|-------------|
-| `country` | Country name |
-| `iso3c` | ISO-3 country code |
-| `year` | Calendar year |
-| `gdp_per_capita_const2015_usd` | GDP per capita (constant 2015 USD) |
-| `co2_per_capita_tons` | CO₂ emissions per capita |
-| `population` | Total population |
+Developed Asia & Oceania contains mature Asia-Pacific economies including
+Japan, South Korea, Australia, New Zealand and Singapore, together with Israel
+under the project's development-based classification.
 
-Each row corresponds to a **country–year observation**.
+These groups should therefore be interpreted as regional-development clusters
+rather than strictly geographical regions.
 
-### Data Processing Steps
+The explicit ISO3-to-region mapping is stored in:
 
-1. Load World Bank WDI data (wide format).
-2. Detect year columns programmatically.
-3. Reshape from wide to long format.
-4. Convert missing values to `NaN`.
-5. Filter to core indicators.
-6. Pivot to one row per country–year.
-7. Export cleaned panel dataset.
+`data/meta/country_regions.csv`
 
-No aggregation or modeling is performed at this stage.
+## Regional Aggregation
 
----
+Country-year observations are aggregated to region-year observations using
+population weighting.
 
-## 6. Regional Classification (Planned Aggregation)
+For GDP per capita:
 
-Countries will be grouped into five development clusters:
+GDPpc_region =
+sum(GDPpc_country × population_country) /
+sum(population_country)
 
-1. **Europe_NorthAmerica**  
-2. **Advanced_Asia_Oceania**  
-3. **China** (standalone)  
-4. **India** (standalone)  
-5. **Global_South**
+The same method is used for CO₂ emissions per capita.
 
-### Rationale
+Regional population is calculated as the sum of the populations of
+contributing countries.
 
-Regions reflect differences in:
+The resulting dataset is:
 
-- Stage of development  
-- Institutional maturity  
-- Industrialisation history  
-- Emissions structure  
+`data/analysis/region_year_panel.csv`
 
-Japan, South Korea, Australia, New Zealand, Israel, and Singapore are classified as **Advanced_Asia_Oceania** due to their high-income status and early industrial transition.
+Each row represents one region-year observation.
 
-### Aggregation Rules
+## Current Analysis
 
-- GDP per capita → population-weighted average  
-- CO₂ per capita → population-weighted average  
-- Governance indicators → simple average  
+The project has completed the core descriptive and exploratory stages.
 
-This produces a **region–year panel dataset** for analysis.
+Current outputs include:
 
----
+- GDP per capita versus CO₂ emissions scatter plots,
+- GDP trends by region,
+- CO₂ trends by region,
+- log-log GDP-emissions plots,
+- region-specific development paths,
+- fitted log-log relationships,
+- pooled quadratic Environmental Kuznets Curve visualisation,
+- separate regional log-log figures.
 
-## 7. Planned Empirical Analysis
+These figures are stored under:
 
-### Descriptive Analysis
+`figures/`
 
-- GDP vs CO₂ scatter plots (region–year observations)
-- Region-specific development paths
-- Time-series trends to identify decoupling
+The fitted curves are currently treated as exploratory evidence rather than
+formal econometric results.
 
-### Econometric Specifications
+## Empirical Strategy
 
-- Log–log income–emissions regression
-- EKC specification (quadratic income term)
-- Governance-augmented models
-- Optional regional fixed effects
+The next stage is formal econometric estimation.
 
----
+### Regional benchmark models
 
-## 8. Output Files
+The first formal specifications will estimate:
 
-Current cleaned dataset: data/cleaned/wdi_gdp_co2_population_panel.csv
+1. pooled log-log income-emissions regression,
+2. region-specific log-log regressions,
+3. quadratic EKC specifications.
 
-Planned regional dataset: data/meta/country_regions.csv
+These models will report coefficient estimates, standard errors, p-values,
+sample sizes and goodness-of-fit statistics.
 
----
+### Country-panel extension
 
-## 9. Limitations
+The main econometric extension will return to the underlying country-year
+panel and estimate models with country and year fixed effects.
 
-- Correlation does not imply causation.
-- Governance indicators are measured with error.
-- Regional aggregation masks within-region heterogeneity.
-- Energy mix and structural factors are not yet controlled for.
+This allows regional heterogeneity to be examined without discarding the
+within-region country-level variation.
 
----
+### Governance extension
 
-## 10. Policy Relevance
+World Governance Indicators are planned for a later stage.
 
-Understanding whether growth automatically reduces emissions — or whether institutional strength is required — is central to:
+Candidate indicators include:
 
-- Climate finance allocation  
-- Green industrial policy  
-- Sustainable development strategy  
+- Government Effectiveness,
+- Regulatory Quality,
+- Rule of Law.
 
-This project aims to contribute to the empirical discussion on growth–environment trade-offs.
+Governance will initially be merged at country-year level rather than directly
+aggregated to five regional observations.
 
----
+## Repository Structure
 
-## 11. Repository Structure
-
-data/
-raw/
-cleaned/
-analysis/
-meta/
-
-scripts/
-notebooks/
-figures/
-paper/
-
----
-
-## 12. Project Status
-
-- ✔ Country–year panel constructed  
-- ⏳ Regional aggregation in progress  
-- ⏳ Visual analysis  
-- ⏳ Econometric estimation  
-- ⏳ Governance extension  
-
----
+```text
+worldbank_project/
+│
+├── analysis/
+│   ├── 00_validate_region_panel.py
+│   ├── descriptive and plotting scripts
+│   └── aggregation scripts
+│
+├── data/
+│   ├── raw/
+│   │   └── World Bank WDI download
+│   │
+│   ├── cleaned/
+│   │   └── wdi_gdp_co2_population_panel.csv
+│   │
+│   ├── meta/
+│   │   ├── country_regions.csv
+│   │   └── data_checksums.sha256
+│   │
+│   └── analysis/
+│       ├── region_year_panel.csv
+│       └── qc/
+│
+├── figures/
+│   ├── regional descriptive figures
+│   └── loglog_by_region/
+│
+├── README.md
+├── requirements.txt
+└── .gitignore

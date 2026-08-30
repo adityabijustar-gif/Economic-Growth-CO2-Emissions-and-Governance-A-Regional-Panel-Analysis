@@ -1,0 +1,6 @@
+region,first_year,last_year,min_countries_used,max_countries_used,countries_in_map,min_country_coverage_pct,min_population_coverage_pct
+China,1990,2024,1,1,1,100.0,100.0
+DevelopedAsia_Oceania,1990,2024,8,8,8,100.0,100.0
+Europe_NorthAmerica,1990,2024,42,43,53,79.24528301886792,98.91030723608189
+Global_South,1990,2024,132,146,154,85.71428571428571,95.82372061244872
+India,1990,2024,1,1,1,100.0,100.0
