@@ -55,3 +55,6 @@ World bank project.pdf
 # ------------------------------------------------------------
 
 # data/raw/worldbank_wdi_download/
+
+# Generated full Statsmodels regression summaries
+data/analysis/regression_results/*_summary.txt
