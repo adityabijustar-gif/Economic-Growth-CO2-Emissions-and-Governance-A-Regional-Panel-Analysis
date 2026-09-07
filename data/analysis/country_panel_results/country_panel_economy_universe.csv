@@ -1,0 +1,218 @@
+iso3c,country,region,n_years_in_source,n_valid_regression_observations,enters_main_regression,regression_sample_status
+ABW,Aruba,Global_South,35,35,True,Included
+AFG,Afghanistan,Global_South,35,24,True,Included
+AGO,Angola,Global_South,35,35,True,Included
+ALB,Albania,Europe_NorthAmerica,35,35,True,Included
+AND,Andorra,Europe_NorthAmerica,35,0,False,No usable positive GDP-CO2 economy-year observations
+ARE,United Arab Emirates,Global_South,35,35,True,Included
+ARG,Argentina,Global_South,35,35,True,Included
+ARM,Armenia,Global_South,35,35,True,Included
+ASM,American Samoa,Global_South,35,21,True,Included
+ATG,Antigua and Barbuda,Global_South,35,35,True,Included
+AUS,Australia,DevelopedAsia_Oceania,35,35,True,Included
+AUT,Austria,Europe_NorthAmerica,35,35,True,Included
+AZE,Azerbaijan,Global_South,35,35,True,Included
+BDI,Burundi,Global_South,35,35,True,Included
+BEL,Belgium,Europe_NorthAmerica,35,35,True,Included
+BEN,Benin,Global_South,35,35,True,Included
+BFA,Burkina Faso,Global_South,35,35,True,Included
+BGD,Bangladesh,Global_South,35,35,True,Included
+BGR,Bulgaria,Europe_NorthAmerica,35,35,True,Included
+BHR,Bahrain,Global_South,35,35,True,Included
+BHS,"Bahamas, The",Global_South,35,35,True,Included
+BIH,Bosnia and Herzegovina,Europe_NorthAmerica,35,35,True,Included
+BLR,Belarus,Europe_NorthAmerica,35,35,True,Included
+BLZ,Belize,Global_South,35,35,True,Included
+BMU,Bermuda,Europe_NorthAmerica,35,35,True,Included
+BOL,Bolivia,Global_South,35,35,True,Included
+BRA,Brazil,Global_South,35,35,True,Included
+BRB,Barbados,Global_South,35,35,True,Included
+BRN,Brunei Darussalam,Global_South,35,35,True,Included
+BTN,Bhutan,Global_South,35,34,True,Included
+BWA,Botswana,Global_South,35,35,True,Included
+CAF,Central African Republic,Global_South,35,35,True,Included
+CAN,Canada,Europe_NorthAmerica,35,35,True,Included
+CHE,Switzerland,Europe_NorthAmerica,35,35,True,Included
+CHI,Channel Islands,Europe_NorthAmerica,35,0,False,No usable positive GDP-CO2 economy-year observations
+CHL,Chile,Global_South,35,35,True,Included
+CHN,China,China,35,35,True,Included
+CIV,Cote d'Ivoire,Global_South,35,35,True,Included
+CMR,Cameroon,Global_South,35,35,True,Included
+COD,"Congo, Dem. Rep.",Global_South,35,35,True,Included
+COG,"Congo, Rep.",Global_South,35,35,True,Included
+COL,Colombia,Global_South,35,35,True,Included
+COM,Comoros,Global_South,35,35,True,Included
+CPV,Cabo Verde,Global_South,35,35,True,Included
+CRI,Costa Rica,Global_South,35,35,True,Included
+CUB,Cuba,Global_South,35,35,True,Included
+CUW,Curacao,Global_South,35,0,False,No usable positive GDP-CO2 economy-year observations
+CYM,Cayman Islands,Global_South,35,18,True,Included
+CYP,Cyprus,Europe_NorthAmerica,35,35,True,Included
+CZE,Czechia,Europe_NorthAmerica,35,35,True,Included
+DEU,Germany,Europe_NorthAmerica,35,35,True,Included
+DJI,Djibouti,Global_South,35,12,True,Included
+DMA,Dominica,Global_South,35,35,True,Included
+DNK,Denmark,Europe_NorthAmerica,35,35,True,Included
+DOM,Dominican Republic,Global_South,35,35,True,Included
+DZA,Algeria,Global_South,35,35,True,Included
+ECU,Ecuador,Global_South,35,35,True,Included
+EGY,"Egypt, Arab Rep.",Global_South,35,35,True,Included
+ERI,Eritrea,Global_South,35,20,True,Included
+ESP,Spain,Europe_NorthAmerica,35,35,True,Included
+EST,Estonia,Europe_NorthAmerica,35,35,True,Included
+ETH,Ethiopia,Global_South,35,35,True,Included
+FIN,Finland,Europe_NorthAmerica,35,35,True,Included
+FJI,Fiji,Global_South,35,35,True,Included
+FRA,France,Europe_NorthAmerica,35,35,True,Included
+FRO,Faroe Islands,Europe_NorthAmerica,35,17,True,Included
+FSM,"Micronesia, Fed. Sts.",Global_South,35,35,True,Included
+GAB,Gabon,Global_South,35,35,True,Included
+GBR,United Kingdom,Europe_NorthAmerica,35,35,True,Included
+GEO,Georgia,Global_South,35,35,True,Included
+GHA,Ghana,Global_South,35,35,True,Included
+GIB,Gibraltar,Europe_NorthAmerica,35,0,False,No usable positive GDP-CO2 economy-year observations
+GIN,Guinea,Global_South,35,35,True,Included
+GMB,"Gambia, The",Global_South,35,35,True,Included
+GNB,Guinea-Bissau,Global_South,35,35,True,Included
+GNQ,Equatorial Guinea,Global_South,35,35,True,Included
+GRC,Greece,Europe_NorthAmerica,35,35,True,Included
+GRD,Grenada,Global_South,35,35,True,Included
+GRL,Greenland,Europe_NorthAmerica,35,34,True,Included
+GTM,Guatemala,Global_South,35,35,True,Included
+GUM,Guam,Global_South,35,21,True,Included
+GUY,Guyana,Global_South,35,35,True,Included
+HKG,"Hong Kong SAR, China",DevelopedAsia_Oceania,35,35,True,Included
+HND,Honduras,Global_South,35,35,True,Included
+HRV,Croatia,Europe_NorthAmerica,35,35,True,Included
+HTI,Haiti,Global_South,35,35,True,Included
+HUN,Hungary,Europe_NorthAmerica,35,35,True,Included
+IDN,Indonesia,Global_South,35,35,True,Included
+IMN,Isle of Man,Europe_NorthAmerica,35,0,False,No usable positive GDP-CO2 economy-year observations
+IND,India,India,35,35,True,Included
+IRL,Ireland,Europe_NorthAmerica,35,35,True,Included
+IRN,"Iran, Islamic Rep.",Global_South,35,35,True,Included
+IRQ,Iraq,Global_South,35,35,True,Included
+ISL,Iceland,Europe_NorthAmerica,35,35,True,Included
+ISR,Israel,DevelopedAsia_Oceania,35,35,True,Included
+ITA,Italy,Europe_NorthAmerica,35,35,True,Included
+JAM,Jamaica,Global_South,35,35,True,Included
+JOR,Jordan,Global_South,35,35,True,Included
+JPN,Japan,DevelopedAsia_Oceania,35,35,True,Included
+KAZ,Kazakhstan,Global_South,35,35,True,Included
+KEN,Kenya,Global_South,35,35,True,Included
+KGZ,Kyrgyz Republic,Global_South,35,35,True,Included
+KHM,Cambodia,Global_South,35,35,True,Included
+KIR,Kiribati,Global_South,35,35,True,Included
+KNA,St. Kitts and Nevis,Global_South,35,35,True,Included
+KOR,"Korea, Rep.",DevelopedAsia_Oceania,35,35,True,Included
+KWT,Kuwait,Global_South,35,35,True,Included
+LAO,Lao PDR,Global_South,35,35,True,Included
+LBN,Lebanon,Global_South,35,34,True,Included
+LBR,Liberia,Global_South,35,35,True,Included
+LBY,Libya,Global_South,35,35,True,Included
+LCA,St. Lucia,Global_South,35,35,True,Included
+LIE,Liechtenstein,Europe_NorthAmerica,35,0,False,No usable positive GDP-CO2 economy-year observations
+LKA,Sri Lanka,Global_South,35,35,True,Included
+LSO,Lesotho,Global_South,35,35,True,Included
+LTU,Lithuania,Europe_NorthAmerica,35,35,True,Included
+LUX,Luxembourg,Europe_NorthAmerica,35,35,True,Included
+LVA,Latvia,Europe_NorthAmerica,35,35,True,Included
+MAC,"Macao SAR, China",DevelopedAsia_Oceania,35,35,True,Included
+MAF,St. Martin (French part),Global_South,35,0,False,No usable positive GDP-CO2 economy-year observations
+MAR,Morocco,Global_South,35,35,True,Included
+MCO,Monaco,Europe_NorthAmerica,35,0,False,No usable positive GDP-CO2 economy-year observations
+MDA,Moldova,Europe_NorthAmerica,35,35,True,Included
+MDG,Madagascar,Global_South,35,35,True,Included
+MDV,Maldives,Global_South,35,35,True,Included
+MEX,Mexico,Global_South,35,35,True,Included
+MHL,Marshall Islands,Global_South,35,35,True,Included
+MKD,North Macedonia,Europe_NorthAmerica,35,35,True,Included
+MLI,Mali,Global_South,35,35,True,Included
+MLT,Malta,Europe_NorthAmerica,35,35,True,Included
+MMR,Myanmar,Global_South,35,35,True,Included
+MNE,Montenegro,Europe_NorthAmerica,35,0,False,No usable positive GDP-CO2 economy-year observations
+MNG,Mongolia,Global_South,35,35,True,Included
+MNP,Northern Mariana Islands,Global_South,35,21,True,Included
+MOZ,Mozambique,Global_South,35,35,True,Included
+MRT,Mauritania,Global_South,35,35,True,Included
+MUS,Mauritius,Global_South,35,35,True,Included
+MWI,Malawi,Global_South,35,35,True,Included
+MYS,Malaysia,Global_South,35,35,True,Included
+NAM,Namibia,Global_South,35,35,True,Included
+NCL,New Caledonia,Global_South,35,1,False,Fewer than 2 usable observations
+NER,Niger,Global_South,35,35,True,Included
+NGA,Nigeria,Global_South,35,35,True,Included
+NIC,Nicaragua,Global_South,35,35,True,Included
+NLD,Netherlands,Europe_NorthAmerica,35,35,True,Included
+NOR,Norway,Europe_NorthAmerica,35,35,True,Included
+NPL,Nepal,Global_South,35,35,True,Included
+NRU,Nauru,Global_South,35,0,False,No usable positive GDP-CO2 economy-year observations
+NZL,New Zealand,DevelopedAsia_Oceania,35,35,True,Included
+OMN,Oman,Global_South,35,35,True,Included
+PAK,Pakistan,Global_South,35,35,True,Included
+PAN,Panama,Global_South,35,35,True,Included
+PER,Peru,Global_South,35,35,True,Included
+PHL,Philippines,Global_South,35,35,True,Included
+PLW,Palau,Global_South,35,34,True,Included
+PNG,Papua New Guinea,Global_South,35,35,True,Included
+POL,Poland,Europe_NorthAmerica,35,35,True,Included
+PRI,Puerto Rico (US),Global_South,35,35,True,Included
+PRK,"Korea, Dem. People's Rep.",Global_South,35,0,False,No usable positive GDP-CO2 economy-year observations
+PRT,Portugal,Europe_NorthAmerica,35,35,True,Included
+PRY,Paraguay,Global_South,35,35,True,Included
+PSE,West Bank and Gaza,Global_South,35,0,False,No usable positive GDP-CO2 economy-year observations
+PYF,French Polynesia,Global_South,35,35,True,Included
+QAT,Qatar,Global_South,35,35,True,Included
+ROU,Romania,Europe_NorthAmerica,35,35,True,Included
+RUS,Russian Federation,Europe_NorthAmerica,35,35,True,Included
+RWA,Rwanda,Global_South,35,35,True,Included
+SAU,Saudi Arabia,Global_South,35,35,True,Included
+SDN,Sudan,Global_South,35,35,True,Included
+SEN,Senegal,Global_South,35,35,True,Included
+SGP,Singapore,DevelopedAsia_Oceania,35,35,True,Included
+SLB,Solomon Islands,Global_South,35,35,True,Included
+SLE,Sierra Leone,Global_South,35,35,True,Included
+SLV,El Salvador,Global_South,35,35,True,Included
+SMR,San Marino,Europe_NorthAmerica,35,0,False,No usable positive GDP-CO2 economy-year observations
+SOM,"Somalia, Fed. Rep.",Global_South,35,35,True,Included
+SRB,Serbia,Europe_NorthAmerica,35,0,False,No usable positive GDP-CO2 economy-year observations
+SSD,South Sudan,Global_South,35,0,False,No usable positive GDP-CO2 economy-year observations
+STP,Sao Tome and Principe,Global_South,35,35,True,Included
+SUR,Suriname,Global_South,35,35,True,Included
+SVK,Slovak Republic,Europe_NorthAmerica,35,35,True,Included
+SVN,Slovenia,Europe_NorthAmerica,35,35,True,Included
+SWE,Sweden,Europe_NorthAmerica,35,35,True,Included
+SWZ,Eswatini,Global_South,35,35,True,Included
+SXM,Sint Maarten (Dutch part),Global_South,35,0,False,No usable positive GDP-CO2 economy-year observations
+SYC,Seychelles,Global_South,35,35,True,Included
+SYR,Syrian Arab Republic,Global_South,35,33,True,Included
+TCA,Turks and Caicos Islands,Global_South,35,18,True,Included
+TCD,Chad,Global_South,35,35,True,Included
+TGO,Togo,Global_South,35,35,True,Included
+THA,Thailand,Global_South,35,35,True,Included
+TJK,Tajikistan,Global_South,35,35,True,Included
+TKM,Turkmenistan,Global_South,35,35,True,Included
+TLS,Timor-Leste,Global_South,35,35,True,Included
+TON,Tonga,Global_South,35,34,True,Included
+TTO,Trinidad and Tobago,Global_South,35,35,True,Included
+TUN,Tunisia,Global_South,35,35,True,Included
+TUR,Turkiye,Global_South,35,35,True,Included
+TUV,Tuvalu,Global_South,35,0,False,No usable positive GDP-CO2 economy-year observations
+TZA,Tanzania,Global_South,35,35,True,Included
+UGA,Uganda,Global_South,35,35,True,Included
+UKR,Ukraine,Europe_NorthAmerica,35,35,True,Included
+URY,Uruguay,Global_South,35,35,True,Included
+USA,United States,Europe_NorthAmerica,35,35,True,Included
+UZB,Uzbekistan,Global_South,35,35,True,Included
+VCT,St. Vincent and the Grenadines,Global_South,35,35,True,Included
+VEN,"Venezuela, RB",Global_South,35,35,True,Included
+VGB,British Virgin Islands,Global_South,35,0,False,No usable positive GDP-CO2 economy-year observations
+VIR,Virgin Islands (U.S.),Global_South,35,21,True,Included
+VNM,Viet Nam,Global_South,35,35,True,Included
+VUT,Vanuatu,Global_South,35,35,True,Included
+WSM,Samoa,Global_South,35,35,True,Included
+XKX,Kosovo,Europe_NorthAmerica,35,0,False,No usable positive GDP-CO2 economy-year observations
+YEM,"Yemen, Rep.",Global_South,35,29,True,Included
+ZAF,South Africa,Global_South,35,35,True,Included
+ZMB,Zambia,Global_South,35,35,True,Included
+ZWE,Zimbabwe,Global_South,35,35,True,Included

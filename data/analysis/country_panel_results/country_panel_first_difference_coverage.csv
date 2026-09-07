@@ -1,0 +1,198 @@
+iso3c,country,region,first_difference_year,last_difference_year,n_difference_observations
+ABW,Aruba,Global_South,1991,2024,34
+AFG,Afghanistan,Global_South,2001,2023,23
+AGO,Angola,Global_South,1991,2024,34
+ALB,Albania,Europe_NorthAmerica,1991,2024,34
+ARE,United Arab Emirates,Global_South,1991,2024,34
+ARG,Argentina,Global_South,1991,2024,34
+ARM,Armenia,Global_South,1991,2024,34
+ASM,American Samoa,Global_South,2003,2022,20
+ATG,Antigua and Barbuda,Global_South,1991,2024,34
+AUS,Australia,DevelopedAsia_Oceania,1991,2024,34
+AUT,Austria,Europe_NorthAmerica,1991,2024,34
+AZE,Azerbaijan,Global_South,1991,2024,34
+BDI,Burundi,Global_South,1991,2024,34
+BEL,Belgium,Europe_NorthAmerica,1991,2024,34
+BEN,Benin,Global_South,1991,2024,34
+BFA,Burkina Faso,Global_South,1991,2024,34
+BGD,Bangladesh,Global_South,1991,2024,34
+BGR,Bulgaria,Europe_NorthAmerica,1991,2024,34
+BHR,Bahrain,Global_South,1991,2024,34
+BHS,"Bahamas, The",Global_South,1991,2024,34
+BIH,Bosnia and Herzegovina,Europe_NorthAmerica,1991,2024,34
+BLR,Belarus,Europe_NorthAmerica,1991,2024,34
+BLZ,Belize,Global_South,1991,2024,34
+BMU,Bermuda,Europe_NorthAmerica,1991,2024,34
+BOL,Bolivia,Global_South,1991,2024,34
+BRA,Brazil,Global_South,1991,2024,34
+BRB,Barbados,Global_South,1991,2024,34
+BRN,Brunei Darussalam,Global_South,1991,2024,34
+BTN,Bhutan,Global_South,1991,2023,33
+BWA,Botswana,Global_South,1991,2024,34
+CAF,Central African Republic,Global_South,1991,2024,34
+CAN,Canada,Europe_NorthAmerica,1991,2024,34
+CHE,Switzerland,Europe_NorthAmerica,1991,2024,34
+CHL,Chile,Global_South,1991,2024,34
+CHN,China,China,1991,2024,34
+CIV,Cote d'Ivoire,Global_South,1991,2024,34
+CMR,Cameroon,Global_South,1991,2024,34
+COD,"Congo, Dem. Rep.",Global_South,1991,2024,34
+COG,"Congo, Rep.",Global_South,1991,2024,34
+COL,Colombia,Global_South,1991,2024,34
+COM,Comoros,Global_South,1991,2024,34
+CPV,Cabo Verde,Global_South,1991,2024,34
+CRI,Costa Rica,Global_South,1991,2024,34
+CUB,Cuba,Global_South,1991,2024,34
+CYM,Cayman Islands,Global_South,2007,2023,17
+CYP,Cyprus,Europe_NorthAmerica,1991,2024,34
+CZE,Czechia,Europe_NorthAmerica,1991,2024,34
+DEU,Germany,Europe_NorthAmerica,1991,2024,34
+DJI,Djibouti,Global_South,2014,2024,11
+DMA,Dominica,Global_South,1991,2024,34
+DNK,Denmark,Europe_NorthAmerica,1991,2024,34
+DOM,Dominican Republic,Global_South,1991,2024,34
+DZA,Algeria,Global_South,1991,2024,34
+ECU,Ecuador,Global_South,1991,2024,34
+EGY,"Egypt, Arab Rep.",Global_South,1991,2024,34
+ERI,Eritrea,Global_South,1993,2011,19
+ESP,Spain,Europe_NorthAmerica,1991,2024,34
+EST,Estonia,Europe_NorthAmerica,1991,2024,34
+ETH,Ethiopia,Global_South,1991,2024,34
+FIN,Finland,Europe_NorthAmerica,1991,2024,34
+FJI,Fiji,Global_South,1991,2024,34
+FRA,France,Europe_NorthAmerica,1991,2024,34
+FRO,Faroe Islands,Europe_NorthAmerica,2009,2024,16
+FSM,"Micronesia, Fed. Sts.",Global_South,1991,2024,34
+GAB,Gabon,Global_South,1991,2024,34
+GBR,United Kingdom,Europe_NorthAmerica,1991,2024,34
+GEO,Georgia,Global_South,1991,2024,34
+GHA,Ghana,Global_South,1991,2024,34
+GIN,Guinea,Global_South,1991,2024,34
+GMB,"Gambia, The",Global_South,1991,2024,34
+GNB,Guinea-Bissau,Global_South,1991,2024,34
+GNQ,Equatorial Guinea,Global_South,1991,2024,34
+GRC,Greece,Europe_NorthAmerica,1991,2024,34
+GRD,Grenada,Global_South,1991,2024,34
+GRL,Greenland,Europe_NorthAmerica,1991,2023,33
+GTM,Guatemala,Global_South,1991,2024,34
+GUM,Guam,Global_South,2003,2022,20
+GUY,Guyana,Global_South,1991,2024,34
+HKG,"Hong Kong SAR, China",DevelopedAsia_Oceania,1991,2024,34
+HND,Honduras,Global_South,1991,2024,34
+HRV,Croatia,Europe_NorthAmerica,1991,2024,34
+HTI,Haiti,Global_South,1991,2024,34
+HUN,Hungary,Europe_NorthAmerica,1991,2024,34
+IDN,Indonesia,Global_South,1991,2024,34
+IND,India,India,1991,2024,34
+IRL,Ireland,Europe_NorthAmerica,1991,2024,34
+IRN,"Iran, Islamic Rep.",Global_South,1991,2024,34
+IRQ,Iraq,Global_South,1991,2024,34
+ISL,Iceland,Europe_NorthAmerica,1991,2024,34
+ISR,Israel,DevelopedAsia_Oceania,1991,2024,34
+ITA,Italy,Europe_NorthAmerica,1991,2024,34
+JAM,Jamaica,Global_South,1991,2024,34
+JOR,Jordan,Global_South,1991,2024,34
+JPN,Japan,DevelopedAsia_Oceania,1991,2024,34
+KAZ,Kazakhstan,Global_South,1991,2024,34
+KEN,Kenya,Global_South,1991,2024,34
+KGZ,Kyrgyz Republic,Global_South,1991,2024,34
+KHM,Cambodia,Global_South,1991,2024,34
+KIR,Kiribati,Global_South,1991,2024,34
+KNA,St. Kitts and Nevis,Global_South,1991,2024,34
+KOR,"Korea, Rep.",DevelopedAsia_Oceania,1991,2024,34
+KWT,Kuwait,Global_South,1991,2024,34
+LAO,Lao PDR,Global_South,1991,2024,34
+LBN,Lebanon,Global_South,1991,2023,33
+LBR,Liberia,Global_South,1991,2024,34
+LBY,Libya,Global_South,1991,2024,34
+LCA,St. Lucia,Global_South,1991,2024,34
+LKA,Sri Lanka,Global_South,1991,2024,34
+LSO,Lesotho,Global_South,1991,2024,34
+LTU,Lithuania,Europe_NorthAmerica,1991,2024,34
+LUX,Luxembourg,Europe_NorthAmerica,1991,2024,34
+LVA,Latvia,Europe_NorthAmerica,1991,2024,34
+MAC,"Macao SAR, China",DevelopedAsia_Oceania,1991,2024,34
+MAR,Morocco,Global_South,1991,2024,34
+MDA,Moldova,Europe_NorthAmerica,1991,2024,34
+MDG,Madagascar,Global_South,1991,2024,34
+MDV,Maldives,Global_South,1991,2024,34
+MEX,Mexico,Global_South,1991,2024,34
+MHL,Marshall Islands,Global_South,1991,2024,34
+MKD,North Macedonia,Europe_NorthAmerica,1991,2024,34
+MLI,Mali,Global_South,1991,2024,34
+MLT,Malta,Europe_NorthAmerica,1991,2024,34
+MMR,Myanmar,Global_South,1991,2024,34
+MNG,Mongolia,Global_South,1991,2024,34
+MNP,Northern Mariana Islands,Global_South,2003,2022,20
+MOZ,Mozambique,Global_South,1991,2024,34
+MRT,Mauritania,Global_South,1991,2024,34
+MUS,Mauritius,Global_South,1991,2024,34
+MWI,Malawi,Global_South,1991,2024,34
+MYS,Malaysia,Global_South,1991,2024,34
+NAM,Namibia,Global_South,1991,2024,34
+NER,Niger,Global_South,1991,2024,34
+NGA,Nigeria,Global_South,1991,2024,34
+NIC,Nicaragua,Global_South,1991,2024,34
+NLD,Netherlands,Europe_NorthAmerica,1991,2024,34
+NOR,Norway,Europe_NorthAmerica,1991,2024,34
+NPL,Nepal,Global_South,1991,2024,34
+NZL,New Zealand,DevelopedAsia_Oceania,1991,2024,34
+OMN,Oman,Global_South,1991,2024,34
+PAK,Pakistan,Global_South,1991,2024,34
+PAN,Panama,Global_South,1991,2024,34
+PER,Peru,Global_South,1991,2024,34
+PHL,Philippines,Global_South,1991,2024,34
+PLW,Palau,Global_South,1991,2023,33
+PNG,Papua New Guinea,Global_South,1991,2024,34
+POL,Poland,Europe_NorthAmerica,1991,2024,34
+PRI,Puerto Rico (US),Global_South,1991,2024,34
+PRT,Portugal,Europe_NorthAmerica,1991,2024,34
+PRY,Paraguay,Global_South,1991,2024,34
+PYF,French Polynesia,Global_South,1991,2024,34
+QAT,Qatar,Global_South,1991,2024,34
+ROU,Romania,Europe_NorthAmerica,1991,2024,34
+RUS,Russian Federation,Europe_NorthAmerica,1991,2024,34
+RWA,Rwanda,Global_South,1991,2024,34
+SAU,Saudi Arabia,Global_South,1991,2024,34
+SDN,Sudan,Global_South,1991,2024,34
+SEN,Senegal,Global_South,1991,2024,34
+SGP,Singapore,DevelopedAsia_Oceania,1991,2024,34
+SLB,Solomon Islands,Global_South,1991,2024,34
+SLE,Sierra Leone,Global_South,1991,2024,34
+SLV,El Salvador,Global_South,1991,2024,34
+SOM,"Somalia, Fed. Rep.",Global_South,1991,2024,34
+STP,Sao Tome and Principe,Global_South,1991,2024,34
+SUR,Suriname,Global_South,1991,2024,34
+SVK,Slovak Republic,Europe_NorthAmerica,1991,2024,34
+SVN,Slovenia,Europe_NorthAmerica,1991,2024,34
+SWE,Sweden,Europe_NorthAmerica,1991,2024,34
+SWZ,Eswatini,Global_South,1991,2024,34
+SYC,Seychelles,Global_South,1991,2024,34
+SYR,Syrian Arab Republic,Global_South,1991,2022,32
+TCA,Turks and Caicos Islands,Global_South,2008,2024,17
+TCD,Chad,Global_South,1991,2024,34
+TGO,Togo,Global_South,1991,2024,34
+THA,Thailand,Global_South,1991,2024,34
+TJK,Tajikistan,Global_South,1991,2024,34
+TKM,Turkmenistan,Global_South,1991,2024,34
+TLS,Timor-Leste,Global_South,1991,2024,34
+TON,Tonga,Global_South,1991,2023,33
+TTO,Trinidad and Tobago,Global_South,1991,2024,34
+TUN,Tunisia,Global_South,1991,2024,34
+TUR,Turkiye,Global_South,1991,2024,34
+TZA,Tanzania,Global_South,1991,2024,34
+UGA,Uganda,Global_South,1991,2024,34
+UKR,Ukraine,Europe_NorthAmerica,1991,2024,34
+URY,Uruguay,Global_South,1991,2024,34
+USA,United States,Europe_NorthAmerica,1991,2024,34
+UZB,Uzbekistan,Global_South,1991,2024,34
+VCT,St. Vincent and the Grenadines,Global_South,1991,2024,34
+VEN,"Venezuela, RB",Global_South,1991,2024,34
+VIR,Virgin Islands (U.S.),Global_South,2003,2022,20
+VNM,Viet Nam,Global_South,1991,2024,34
+VUT,Vanuatu,Global_South,1991,2024,34
+WSM,Samoa,Global_South,1991,2024,34
+YEM,"Yemen, Rep.",Global_South,1991,2018,28
+ZAF,South Africa,Global_South,1991,2024,34
+ZMB,Zambia,Global_South,1991,2024,34
+ZWE,Zimbabwe,Global_South,1991,2024,34

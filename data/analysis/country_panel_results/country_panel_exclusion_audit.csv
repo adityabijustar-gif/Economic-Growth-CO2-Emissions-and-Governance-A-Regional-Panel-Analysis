@@ -1,0 +1,12 @@
+stage,count,notes
+Rows in original cleaned country panel,7595,Before restricting years or mapped countries
+Rows within 1990-2024,7595,Pre-specified research window
+Rows after explicit region mapping,7595,"Retains economies explicitly present in country_regions.csv. In the current cleaned WDI extract, all 217 economy codes are mapped and no unmatched aggregate codes are present."
+Rows with missing GDP,499,Diagnostic count; categories may overlap
+Rows with missing CO2,490,Diagnostic count; categories may overlap
+Rows with non-positive GDP,0,Cannot be log transformed
+Rows with non-positive CO2,70,Cannot be log transformed
+Valid GDP-CO2 country-year rows,6726,Before minimum-years-per-country requirement
+Countries before minimum-years filter,198,
+Final regression rows,6725,Countries require at least 2 usable observations
+Final regression countries,197,

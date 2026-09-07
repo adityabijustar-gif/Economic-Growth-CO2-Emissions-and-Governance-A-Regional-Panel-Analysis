@@ -1,0 +1,6 @@
+region,n_countries,n_observations,first_year,last_year,mean_years_per_country,median_years_per_country
+China,1,35,1990,2024,35.0,35.0
+DevelopedAsia_Oceania,8,280,1990,2024,35.0,35.0
+Europe_NorthAmerica,43,1486,1990,2024,34.55813953488372,35.0
+Global_South,144,4889,1990,2024,33.951388888888886,35.0
+India,1,35,1990,2024,35.0,35.0

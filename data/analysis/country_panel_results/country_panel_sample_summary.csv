@@ -1,0 +1,13 @@
+metric,value
+Analysis start year,1990.0
+Analysis end year,2024.0
+Potential years per country,35.0
+Final country-year observations,6725.0
+Countries,197.0
+Regions,5.0
+Minimum usable years per country,12.0
+Median usable years per country,35.0
+Mean usable years per country,34.13705583756345
+Maximum usable years per country,35.0
+Completely balanced countries,180.0
+Countries with zero within-log-GDP variation,0.0
