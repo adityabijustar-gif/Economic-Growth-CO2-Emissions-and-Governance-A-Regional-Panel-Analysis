@@ -1,0 +1,6 @@
+region,region_display,n_annual_changes,n_gdp_expansions,n_absolute_decoupling,n_relative_decoupling,n_coupled_expansion,share_absolute_of_expansions,share_relative_of_expansions,share_coupled_of_expansions,share_any_decoupling_of_expansions
+China,China,34,34,5,26,3,0.14705882352941177,0.7647058823529411,0.08823529411764706,0.9117647058823529
+DevelopedAsia_Oceania,Developed Asia & Oceania,34,30,11,12,7,0.36666666666666664,0.4,0.23333333333333334,0.7666666666666667
+Europe_NorthAmerica,Europe & North America,34,31,21,7,3,0.6774193548387096,0.22580645161290322,0.0967741935483871,0.9032258064516129
+Global_South,Global South,34,29,5,19,5,0.1724137931034483,0.6551724137931034,0.1724137931034483,0.8275862068965517
+India,India,34,32,2,22,8,0.0625,0.6875,0.25,0.75

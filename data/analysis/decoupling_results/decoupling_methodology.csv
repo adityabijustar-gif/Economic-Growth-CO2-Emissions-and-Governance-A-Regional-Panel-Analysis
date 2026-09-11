@@ -1,0 +1,7 @@
+classification,gdp_condition,co2_condition,interpretation
+Absolute decoupling,d_log_gdp > 0,d_log_co2 < 0,GDP per capita rises while CO2 emissions per capita fall.
+Relative decoupling,d_log_gdp > 0,0 <= d_log_co2 < d_log_gdp,"GDP per capita and emissions per capita both rise, but emissions rise more slowly than GDP."
+Coupled expansion,d_log_gdp > 0,d_log_co2 >= d_log_gdp,CO2 emissions per capita rise at least as quickly as GDP per capita during expansion.
+"Economic contraction, emissions falling",d_log_gdp < 0,d_log_co2 < 0,GDP per capita and emissions per capita both fall. This is not classified as successful decoupling.
+"Economic contraction, emissions rising",d_log_gdp < 0,d_log_co2 > 0,GDP per capita falls while emissions per capita rise.
+Stable-GDP cases,approximately zero GDP change,classified according to emissions sign,Separated from expansion-based decoupling categories.
