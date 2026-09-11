@@ -61,3 +61,6 @@ data/analysis/regression_results/*_summary.txt
 
 # Generated country-panel Statsmodels summaries
 data/analysis/country_panel_results/summaries/
+
+# Generated regional-heterogeneity Statsmodels summaries
+data/analysis/country_panel_heterogeneity_results/summaries/

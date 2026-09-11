@@ -1,0 +1,3 @@
+model,n_obs,n_parameters,r_squared,adjusted_r_squared,aic,bic,delta_adjusted_r_squared_vs_common,delta_aic_vs_common,delta_bic_vs_common,note
+Common-slope economy + year FE,6725,232,0.9666674133878816,0.9654815474541993,5431.726849653776,7012.479081090825,0.0,0.0,0.0,Script 09 common-slope benchmark.
+Region-specific-slope economy + year FE,6725,236,0.9688504833861228,0.9677223994896424,4984.19708261348,6592.203662868409,0.0022408520354431083,-447.52976704029606,-420.2754182224162,"Allows five region-specific GDP-emissions slopes. The preferred formal heterogeneity test is the joint test across Europe/North America, Developed Asia & Oceania, and the Global South. AIC/BIC are supplementary."

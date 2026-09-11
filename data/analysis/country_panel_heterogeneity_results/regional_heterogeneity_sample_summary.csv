@@ -1,0 +1,5 @@
+specification,n_observations,n_economies,first_year,last_year
+Main two-way FE,6725,197,1990,2024
+Balanced-panel two-way FE,6300,180,1990,2024
+Population-weighted two-way FE,6725,197,1990,2024
+First differences,6528,197,1991,2024

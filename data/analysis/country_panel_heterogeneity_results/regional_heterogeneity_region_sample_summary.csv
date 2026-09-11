@@ -1,0 +1,6 @@
+region,n_economies,n_observations,first_year,last_year,within_log_gdp_sd,region_display,single_economy_group,primary_cluster_inference
+China,1,35,1990,2024,0.8282264495533735,China,True,False
+DevelopedAsia_Oceania,8,280,1990,2024,0.26601315623612726,Developed Asia & Oceania,False,True
+Europe_NorthAmerica,43,1486,1990,2024,0.27789169985582896,Europe & North America,False,True
+Global_South,144,4889,1990,2024,0.2863694897733314,Global South,False,True
+India,1,35,1990,2024,0.47203913564678335,India,True,False
