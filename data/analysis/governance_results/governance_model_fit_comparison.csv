@@ -1,0 +1,10 @@
+indicator,indicator_display,sample,model,n_obs,n_parameters,r_squared,adjusted_r_squared,aic,bic,delta_aic_vs_common_slope,delta_bic_vs_common_slope
+government_effectiveness,Government Effectiveness,Main available governance sample,Common-slope TWFE,4870,219,0.9844376902659203,0.9837082592785994,-173.8699427876145,1247.6260355331685,0.0,0.0
+government_effectiveness,Government Effectiveness,Main available governance sample,Additive-governance TWFE,4870,220,0.9844488320109108,0.9837164221636827,-175.35783963450922,1252.6289879023504,-1.4878968468947278,5.002952369181912
+government_effectiveness,Government Effectiveness,Main available governance sample,GDP-governance interaction TWFE,4870,221,0.9847956667165596,0.9840761671849707,-283.20203367057184,1151.2756430823645,-109.33209088295735,-96.35039245080407
+regulatory_quality,Regulatory Quality,Main available governance sample,Common-slope TWFE,4873,219,0.9842205871203082,0.9834814569080665,-106.86836035174747,1314.7624840309804,0.0,0.0
+regulatory_quality,Regulatory Quality,Main available governance sample,Additive-governance TWFE,4873,220,0.9842393636628002,0.9834975671105013,-110.67038695882184,1317.4519224667495,-3.8020266070743673,2.689438435769034
+regulatory_quality,Regulatory Quality,Main available governance sample,GDP-governance interaction TWFE,4873,221,0.984553445704322,0.9838229551744319,-206.7614638663381,1227.8523106020768,-99.89310351459062,-86.91017342890359
+rule_of_law,Rule of Law,Main available governance sample,Common-slope TWFE,4935,220,0.9844653417704118,0.9837437956087406,-41.95556767416747,1388.9481817367005,0.0,0.0
+rule_of_law,Rule of Law,Main available governance sample,Additive-governance TWFE,4935,221,0.9844917420463455,0.9837679794774435,-48.34945646822962,1389.058400894506,-6.39388879406215,0.11021915780543168
+rule_of_law,Rule of Law,Main available governance sample,GDP-governance interaction TWFE,4935,222,0.9846161639616361,0.983894791637325,-86.10237657340622,1357.8095887411969,-44.14680889923875,-31.138592995503586

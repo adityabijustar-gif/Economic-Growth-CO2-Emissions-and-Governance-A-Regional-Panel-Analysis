@@ -1,0 +1,16 @@
+indicator,indicator_display,region,region_display,n_obs,n_economies,mean_score,median_score,within_economy_sd
+government_effectiveness,Government Effectiveness,China,China,26,1,53.027866088461536,48.82259845,9.423842968795114
+government_effectiveness,Government Effectiveness,DevelopedAsia_Oceania,Developed Asia & Oceania,208,8,81.71757073701923,82.7233028,4.08358021642166
+government_effectiveness,Government Effectiveness,Europe_NorthAmerica,Europe & North America,1081,42,68.34670520027753,70.1204736,4.290809879659032
+government_effectiveness,Government Effectiveness,Global_South,Global South,3529,141,43.771827991073955,42.5630007,5.162510245278504
+government_effectiveness,Government Effectiveness,India,India,26,1,51.80640502307692,50.063665549999996,6.364530290073608
+regulatory_quality,Regulatory Quality,China,China,26,1,51.77340478461539,52.56209095,2.406028645820027
+regulatory_quality,Regulatory Quality,DevelopedAsia_Oceania,Developed Asia & Oceania,208,8,78.40706672067307,78.9661815,3.664376744359068
+regulatory_quality,Regulatory Quality,Europe_NorthAmerica,Europe & North America,1081,42,69.4948604948196,71.881366,3.397476376967457
+regulatory_quality,Regulatory Quality,Global_South,Global South,3532,141,48.71136348754247,47.97880175,3.915188256807952
+regulatory_quality,Regulatory Quality,India,India,26,1,50.524561523076926,50.940607549999996,2.2521193955336365
+rule_of_law,Rule of Law,China,China,26,1,45.92140555,46.0212916,1.7614871778125756
+rule_of_law,Rule of Law,DevelopedAsia_Oceania,Developed Asia & Oceania,208,8,78.78982406394229,80.75932435,2.7126576041045234
+rule_of_law,Rule of Law,Europe_NorthAmerica,Europe & North America,1081,42,71.92854209583719,74.2855433,2.8186576455282264
+rule_of_law,Rule of Law,Global_South,Global South,3594,142,50.284311115052866,49.01182335,3.8035612319230028
+rule_of_law,Rule of Law,India,India,26,1,57.27683383846154,56.67738025,2.3697513590978985

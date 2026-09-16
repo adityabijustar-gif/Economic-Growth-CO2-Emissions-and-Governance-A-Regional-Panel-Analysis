@@ -982,63 +982,62 @@ analysis.
 
 ---
 
-## 22. Governance Extension
+## Governance Extension
 
-World Governance Indicators will be incorporated after the core
-growth-emissions relationship and regional heterogeneity are established.
+The final empirical extension examines whether governance quality moderates the relationship between economic development and CO₂ emissions.
 
-Candidate indicators include:
+Governance measures are World Governance Indicators accessed through the World Bank World Development Indicators database. Three 0–100 governance-score indicators are analysed separately:
 
-- Government Effectiveness;
-- Regulatory Quality;
-- Rule of Law.
+- **Government Effectiveness:** `GOV_WGI_GE_SC`
+- **Regulatory Quality:** `GOV_WGI_RQ_SC`
+- **Rule of Law:** `GOV_WGI_RL_SC`
 
-Governance will be merged at economy-year level.
+Governance observations are available from 1996 to 2024. The early series is observed in 1996, 1998 and 2000, followed by annual observations from 2002 to 2024. Missing governance years are not interpolated, forward-filled or otherwise constructed.
 
-A baseline governance specification can be written as:
+The common complete-case governance sample contains **4,870 economy-year observations across 193 economies**.
 
-\[
-\ln(CO_{2,it})
-=
-\alpha_i+
-\lambda_t+
-\beta\ln(GDP_{it})
-+
-\gamma Governance_{it}
-+
-\varepsilon_{it}.
-\]
-
-The more substantively important specification allows governance to modify the
-income-emissions relationship:
+The baseline governance model is:
 
 \[
 \ln(CO_{2,it})
 =
-\alpha_i+
-\lambda_t+
-\beta\ln(GDP_{it})
+\alpha_i
++
+\lambda_t
++
+\beta \ln(GDP_{it})
 +
 \gamma Governance_{it}
 +
 \delta
-[
-Governance_{it}\times\ln(GDP_{it})
-]
+\left[
+\ln(GDP_{it}) \times Governance_{it}
+\right]
 +
-\varepsilon_{it}.
+\varepsilon_{it}
 \]
 
-If:
+with economy and year fixed effects and standard errors clustered by economy. Governance scores are centred and expressed in 10-point units, so the interaction coefficient \(\delta\) represents the estimated change in the GDP–CO₂ elasticity associated with a 10-point higher governance score.
 
-\[
-\delta<0,
-\]
+### Baseline and robustness results
 
-stronger governance would be associated with a weaker GDP-emissions
-relationship, conditional on the model specification.
+| Governance indicator | Baseline linear interaction | Region-adjusted | Quadratic GDP | Region + quadratic GDP |
+| --- | ---: | ---: | ---: | ---: |
+| Government Effectiveness | -0.0430 | -0.0102 | +0.0262 | +0.0287 |
+| Regulatory Quality | -0.0464 | -0.0038 | +0.0386 | +0.0448 |
+| Rule of Law | -0.0382 | +0.0104 | +0.0461 | +0.0582 |
 
-No causal interpretation is assumed from this observational design.
+The baseline linear specification suggests that higher governance is associated with weaker income-emissions coupling. However, this relationship is **not robust to alternative specifications**.
+
+Once development-cluster-specific GDP slopes are allowed, the negative governance interaction becomes small and statistically indistinguishable from zero. When nonlinear GDP dynamics are introduced, the interaction changes sign. Model-fit statistics also strongly favour specifications allowing for nonlinear income-emissions dynamics over the simple linear governance model.
+
+A between/within decomposition provides additional context. Persistent differences in governance **between economies** are strongly associated with differences in the GDP-emissions slope, whereas deviations in governance within the same economy over time show little evidence of systematically changing that slope.
+
+The governance results therefore do not support a stable causal or structural claim that improvements in governance independently weaken the GDP-emissions relationship. Instead, governance appears closely associated with broader structural and development differences across economies.
+
+First-difference governance models are retained as supplementary robustness checks. None of the short-run governance interaction estimates remains statistically significant at the 5% level after Holm adjustment for testing the three governance indicators.
+
+These results are interpreted as associations rather than causal effects.
 
 ---
 
@@ -1258,6 +1257,9 @@ worldbank_project/
 │   ├── regional descriptive figures
 │   ├── loglog_by_region/
 │   └── 10_regional_twfe_elasticities.png
+│   └── figures/12_governance_interaction_coefficients.png
+│   └── figures/12_marginal_gdp_elasticity_by_governance.png
+│   └── figures/12_governance_specification_sensitivity.png
 │
 ├── README.md
 ├── requirements.txt
@@ -1387,6 +1389,7 @@ The analysis has several important limitations.
 - Governance indicators contain measurement uncertainty.
 - EKC turning points from aggregate regional models should not be interpreted
   as universal thresholds applicable to individual economies.
+- Governance scores exhibit substantially more variation between economies than within the same economy over time. This limits the strength of conclusions that can be drawn about the effect of changes in governance within an economy. Governance is also closely correlated with broader development characteristics. The estimated governance interaction is sensitive to controls for development-cluster heterogeneity and nonlinear GDP dynamics. For this reason, the governance extension is interpreted as an exploratory institutional mechanism analysis rather than as causal evidence.
 
 The project therefore focuses on robust association, heterogeneity and
 development patterns rather than causal claims.
@@ -1422,3 +1425,25 @@ A policy implication is not that developing economies should avoid economic
 growth, but that the technologies, institutions and energy systems through
 which growth occurs are likely to determine whether development remains
 carbon-intensive or becomes progressively decoupled from emissions.
+
+## Project Status
+
+The empirical analysis is now complete through the governance extension.
+
+- [x] Download and clean World Bank WDI GDP, CO₂ and population data
+- [x] Construct the 1990–2024 economy-year panel
+- [x] Map World Bank economies into five development clusters
+- [x] Construct population-weighted regional aggregates
+- [x] Validate sample coverage and regional aggregation
+- [x] Complete regional descriptive and log-log analysis
+- [x] Estimate regional linear and EKC benchmark models
+- [x] Estimate economy and year fixed-effects models
+- [x] Test formal regional heterogeneity in GDP–CO₂ elasticities
+- [x] Analyse annual and long-period per-capita decoupling
+- [x] Merge and audit WDI governance indicators
+- [x] Estimate governance interaction models
+- [x] Test common-sample, balanced-panel and first-difference robustness
+- [x] Test regional and nonlinear specification sensitivity
+- [x] Decompose governance into between- and within-economy components
+- [ ] Complete final cross-model robustness review
+- [ ] Write final research paper / report

@@ -1,0 +1,19 @@
+indicator,indicator_display,sample,n_obs,n_economies,n_years,first_year,last_year
+government_effectiveness,Government Effectiveness,Main available governance sample,4870,193,26,1996,2024
+government_effectiveness,Government Effectiveness,Common complete-case governance sample,4870,193,26,1996,2024
+government_effectiveness,Government Effectiveness,Annual governance era 2002-2024,4350,193,23,2002,2024
+government_effectiveness,Government Effectiveness,Balanced annual governance era 2002-2024,3910,170,23,2002,2024
+government_effectiveness,Government Effectiveness,Common balanced all-three governance sample 2002-2024,3910,170,23,2002,2024
+government_effectiveness,Government Effectiveness,First-difference consecutive-year sample,4157,193,22,2003,2024
+regulatory_quality,Regulatory Quality,Main available governance sample,4873,193,26,1996,2024
+regulatory_quality,Regulatory Quality,Common complete-case governance sample,4870,193,26,1996,2024
+regulatory_quality,Regulatory Quality,Annual governance era 2002-2024,4350,193,23,2002,2024
+regulatory_quality,Regulatory Quality,Balanced annual governance era 2002-2024,3910,170,23,2002,2024
+regulatory_quality,Regulatory Quality,Common balanced all-three governance sample 2002-2024,3910,170,23,2002,2024
+regulatory_quality,Regulatory Quality,First-difference consecutive-year sample,4157,193,22,2003,2024
+rule_of_law,Rule of Law,Main available governance sample,4935,194,26,1996,2024
+rule_of_law,Rule of Law,Common complete-case governance sample,4870,193,26,1996,2024
+rule_of_law,Rule of Law,Annual governance era 2002-2024,4381,194,23,2002,2024
+rule_of_law,Rule of Law,Balanced annual governance era 2002-2024,4094,178,23,2002,2024
+rule_of_law,Rule of Law,Common balanced all-three governance sample 2002-2024,3910,170,23,2002,2024
+rule_of_law,Rule of Law,First-difference consecutive-year sample,4187,194,22,2003,2024

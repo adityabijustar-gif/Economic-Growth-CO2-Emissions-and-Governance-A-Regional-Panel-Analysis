@@ -1,0 +1,4 @@
+indicator,gov_effectiveness_score,regulatory_quality_score,rule_of_law_score
+gov_effectiveness_score,1.0,0.929810449687162,0.9135853309369266
+regulatory_quality_score,0.929810449687162,1.0,0.9089666241938955
+rule_of_law_score,0.9135853309369266,0.9089666241938955,1.0

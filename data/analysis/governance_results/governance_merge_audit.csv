@@ -1,0 +1,7 @@
+stage,n_obs,n_economies,notes
+Script 09 WDI main sample,6725,197,Validated 1990-2024 positive GDP/CO2 panel
+After left merge with governance,6725,197,No governance interpolation or filling used
+Rows with Government Effectiveness,4870,193,Observed governance score only
+Rows with Regulatory Quality,4873,193,Observed governance score only
+Rows with Rule of Law,4935,194,Observed governance score only
+Rows complete on all three governance indicators,4870,193,Before minimum-observation filter
