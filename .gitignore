@@ -64,3 +64,9 @@ data/analysis/country_panel_results/summaries/
 
 # Generated regional-heterogeneity Statsmodels summaries
 data/analysis/country_panel_heterogeneity_results/summaries/
+
+# Generated governance Statsmodels summaries
+data/analysis/governance_results/summaries/
+
+# Generated Script 13 Statsmodels summaries
+data/analysis/final_robustness/summaries/

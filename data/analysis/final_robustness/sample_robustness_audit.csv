@@ -1,0 +1,11 @@
+specification,sample_type,n_obs,n_economies,n_years,first_year,last_year,minimum_obs_per_economy,median_obs_per_economy,maximum_obs_per_economy,is_strictly_balanced,excluded_region,notes
+Baseline 1990-2024,Baseline,6725,197,35,1990,2024,12,35.0,35,False,,Main Script 09 economy-year sample.
+End year 2022,End-year sensitivity,6352,197,33,1990,2022,10,33.0,33,False,,Baseline sample truncated at 2022.
+End year 2023,End-year sensitivity,6542,197,34,1990,2023,11,34.0,34,False,,Baseline sample truncated at 2023.
+Exclude 2020-2021,COVID-period exclusion,6335,197,33,1990,2024,10,33.0,33,False,,Excludes 2020 and 2021 to reduce influence of the pandemic contraction and immediate rebound.
+Strict balanced panel,Balanced-panel robustness,6300,180,35,1990,2024,35,35.0,35,True,,Economies must have valid positive GDP and CO2 observations in every year from 1990 through 2024.
+Exclude Europe & North America,Leave-one-cluster-out,5239,154,35,1990,2024,12,35.0,35,False,Europe_NorthAmerica,Tests whether the global elasticity is disproportionately driven by one development cluster.
+Exclude Developed Asia & Oceania,Leave-one-cluster-out,6445,189,35,1990,2024,12,35.0,35,False,DevelopedAsia_Oceania,Tests whether the global elasticity is disproportionately driven by one development cluster.
+Exclude China,Leave-one-cluster-out,6690,196,35,1990,2024,12,35.0,35,False,China,Tests whether the global elasticity is disproportionately driven by one development cluster.
+Exclude India,Leave-one-cluster-out,6690,196,35,1990,2024,12,35.0,35,False,India,Tests whether the global elasticity is disproportionately driven by one development cluster.
+Exclude Global South,Leave-one-cluster-out,1836,53,35,1990,2024,17,35.0,35,False,Global_South,Tests whether the global elasticity is disproportionately driven by one development cluster.
