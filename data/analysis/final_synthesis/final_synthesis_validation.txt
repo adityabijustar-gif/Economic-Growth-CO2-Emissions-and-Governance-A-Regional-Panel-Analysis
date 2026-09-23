@@ -1,0 +1,16 @@
+PASS: core elasticity table contains 6 expected results.
+PASS: global robustness table contains 11 expected results.
+PASS: all sample-based global robustness estimates and 95% confidence intervals remain positive.
+PASS: regional robustness table contains 25 expected results.
+PASS: strict balanced-panel result remains validated.
+PASS: annual and long-period decoupling contain all expected region-category combinations.
+PASS: governance specification sensitivity contains 12 expected results.
+PASS: governance between/within decomposition contains 6 expected results.
+PASS: common balanced governance robustness contains 3 expected results.
+PASS: regional EKC benchmark contains five expected regions.
+PASS: source provenance manifest contains every Script 14 input.
+PASS: headline result identifiers are unique.
+PASS: final headline table contains 10 authoritative results.
+PASS: paper_numbers.json loads and contains all required sections.
+
+SCRIPT 14 FINAL SYNTHESIS: PASS

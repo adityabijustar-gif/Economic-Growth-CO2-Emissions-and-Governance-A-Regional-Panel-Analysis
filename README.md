@@ -1222,6 +1222,24 @@ The analysis produces four principal findings.
 The final robustness analysis confirms that the central growth-emissions and regional-heterogeneity findings are not driven by the latest data year, the COVID period, changing panel composition, any single development cluster, or the choice between economy-only and two-way economy/year clustered inference.
 
 ---
+## Final Results Synthesis
+
+The empirical analysis was frozen at `v1.0-analysis`. A final synthesis layer, implemented in `analysis/14_final_results_synthesis.py`, consolidates the validated results from the completed empirical pipeline without estimating any new econometric models.
+
+Script 14 produces:
+
+- a single table of the preferred global and development-cluster GDP–CO₂ elasticities;
+- the complete final robustness results;
+- annual and 1990–2024 endpoint decoupling summaries;
+- a consolidated governance-results table;
+- the regional EKC benchmark summary;
+- `final_headline_results.csv`, containing the principal numerical results used in the final report;
+- `paper_numbers.json`, which serves as the structured numerical source of truth for report writing;
+- `source_manifest.csv`, containing SHA-256 hashes of the frozen analysis files used in the synthesis; and
+- a final core-elasticity summary figure.
+
+The synthesis stage does not modify the econometric specifications or results frozen at `v1.0-analysis`.
+---
 
 ## 25. Main Machine-Readable Outputs
 
@@ -1529,4 +1547,7 @@ The empirical analysis is complete through the final robustness stage.
 - [x] Complete leave-one-development-cluster-out tests
 - [x] Complete economy-and-year two-way clustered inference
 - [x] Complete regional robustness analysis
-- [ ] Produce final research paper / report
+- [x] Freeze empirical analysis at `v1.0-analysis`
+- [x] Consolidate final results into paper-ready synthesis tables
+- [x] Create structured `paper_numbers.json` and source-provenance manifest
+- [ ] Write final research paper / report

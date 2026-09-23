@@ -1,0 +1,31 @@
+analysis,region,region_display,category,count,denominator,share_percent,economies_with_both_endpoints,denominator_definition,period
+Annual,Europe_NorthAmerica,Europe & North America,Absolute decoupling,544,1109,49.05320108205591,,Economy-year observations with consecutive annual observations and positive GDP-per-capita growth,1990-2024
+Annual,Europe_NorthAmerica,Europe & North America,Relative decoupling,305,1109,27.50225428313796,,Economy-year observations with consecutive annual observations and positive GDP-per-capita growth,1990-2024
+Annual,Europe_NorthAmerica,Europe & North America,Coupled expansion,260,1109,23.44454463480613,,Economy-year observations with consecutive annual observations and positive GDP-per-capita growth,1990-2024
+Annual,DevelopedAsia_Oceania,Developed Asia & Oceania,Absolute decoupling,97,218,44.4954128440367,,Economy-year observations with consecutive annual observations and positive GDP-per-capita growth,1990-2024
+Annual,DevelopedAsia_Oceania,Developed Asia & Oceania,Relative decoupling,77,218,35.321100917431195,,Economy-year observations with consecutive annual observations and positive GDP-per-capita growth,1990-2024
+Annual,DevelopedAsia_Oceania,Developed Asia & Oceania,Coupled expansion,44,218,20.18348623853211,,Economy-year observations with consecutive annual observations and positive GDP-per-capita growth,1990-2024
+Annual,China,China,Absolute decoupling,5,34,14.705882352941178,,Economy-year observations with consecutive annual observations and positive GDP-per-capita growth,1990-2024
+Annual,China,China,Relative decoupling,26,34,76.47058823529412,,Economy-year observations with consecutive annual observations and positive GDP-per-capita growth,1990-2024
+Annual,China,China,Coupled expansion,3,34,8.823529411764707,,Economy-year observations with consecutive annual observations and positive GDP-per-capita growth,1990-2024
+Annual,India,India,Absolute decoupling,2,32,6.25,,Economy-year observations with consecutive annual observations and positive GDP-per-capita growth,1990-2024
+Annual,India,India,Relative decoupling,22,32,68.75,,Economy-year observations with consecutive annual observations and positive GDP-per-capita growth,1990-2024
+Annual,India,India,Coupled expansion,8,32,25.0,,Economy-year observations with consecutive annual observations and positive GDP-per-capita growth,1990-2024
+Annual,Global_South,Global South,Absolute decoupling,1160,3378,34.33984606275903,,Economy-year observations with consecutive annual observations and positive GDP-per-capita growth,1990-2024
+Annual,Global_South,Global South,Relative decoupling,781,3378,23.120189461219656,,Economy-year observations with consecutive annual observations and positive GDP-per-capita growth,1990-2024
+Annual,Global_South,Global South,Coupled expansion,1437,3378,42.53996447602131,,Economy-year observations with consecutive annual observations and positive GDP-per-capita growth,1990-2024
+Long-period endpoints,Europe_NorthAmerica,Europe & North America,Absolute decoupling,39,40,97.5,41.0,Economies with valid observations in both 1990 and 2024 and positive long-period GDP-per-capita growth,1990-2024
+Long-period endpoints,Europe_NorthAmerica,Europe & North America,Relative decoupling,1,40,2.5,41.0,Economies with valid observations in both 1990 and 2024 and positive long-period GDP-per-capita growth,1990-2024
+Long-period endpoints,Europe_NorthAmerica,Europe & North America,Coupled expansion,0,40,0.0,41.0,Economies with valid observations in both 1990 and 2024 and positive long-period GDP-per-capita growth,1990-2024
+Long-period endpoints,DevelopedAsia_Oceania,Developed Asia & Oceania,Absolute decoupling,7,8,87.5,8.0,Economies with valid observations in both 1990 and 2024 and positive long-period GDP-per-capita growth,1990-2024
+Long-period endpoints,DevelopedAsia_Oceania,Developed Asia & Oceania,Relative decoupling,1,8,12.5,8.0,Economies with valid observations in both 1990 and 2024 and positive long-period GDP-per-capita growth,1990-2024
+Long-period endpoints,DevelopedAsia_Oceania,Developed Asia & Oceania,Coupled expansion,0,8,0.0,8.0,Economies with valid observations in both 1990 and 2024 and positive long-period GDP-per-capita growth,1990-2024
+Long-period endpoints,China,China,Absolute decoupling,0,1,0.0,1.0,Economies with valid observations in both 1990 and 2024 and positive long-period GDP-per-capita growth,1990-2024
+Long-period endpoints,China,China,Relative decoupling,1,1,100.0,1.0,Economies with valid observations in both 1990 and 2024 and positive long-period GDP-per-capita growth,1990-2024
+Long-period endpoints,China,China,Coupled expansion,0,1,0.0,1.0,Economies with valid observations in both 1990 and 2024 and positive long-period GDP-per-capita growth,1990-2024
+Long-period endpoints,India,India,Absolute decoupling,0,1,0.0,1.0,Economies with valid observations in both 1990 and 2024 and positive long-period GDP-per-capita growth,1990-2024
+Long-period endpoints,India,India,Relative decoupling,1,1,100.0,1.0,Economies with valid observations in both 1990 and 2024 and positive long-period GDP-per-capita growth,1990-2024
+Long-period endpoints,India,India,Coupled expansion,0,1,0.0,1.0,Economies with valid observations in both 1990 and 2024 and positive long-period GDP-per-capita growth,1990-2024
+Long-period endpoints,Global_South,Global South,Absolute decoupling,22,113,19.469026548672566,129.0,Economies with valid observations in both 1990 and 2024 and positive long-period GDP-per-capita growth,1990-2024
+Long-period endpoints,Global_South,Global South,Relative decoupling,38,113,33.6283185840708,129.0,Economies with valid observations in both 1990 and 2024 and positive long-period GDP-per-capita growth,1990-2024
+Long-period endpoints,Global_South,Global South,Coupled expansion,53,113,46.902654867256636,129.0,Economies with valid observations in both 1990 and 2024 and positive long-period GDP-per-capita growth,1990-2024

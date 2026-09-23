@@ -1,0 +1,510 @@
+{
+  "project": {
+    "title": "Economic Growth, CO2 Emissions, and Governance: A Regional Panel Analysis",
+    "analysis_period": "1990-2024",
+    "analysis_status": "Econometric analysis frozen at v1.0-analysis",
+    "interpretive_rule": "Regression estimates are observational associations rather than causal effects."
+  },
+  "global_elasticity": {
+    "estimate": 0.653117544289133,
+    "std_error": 0.0750449514025218,
+    "ci95": [
+      0.505118302150786,
+      0.8011167864274801
+    ],
+    "p_value": 1.320730970018587e-15,
+    "n_obs": 6725,
+    "n_economies": 197,
+    "period": "1990-2024"
+  },
+  "global_sample_robustness_range": {
+    "minimum": 0.613027655479201,
+    "maximum": 0.6875260361278445
+  },
+  "regional_elasticities": {
+    "Europe & North America": {
+      "estimate": 0.0863316641938627,
+      "ci95": [
+        -0.322227087507838,
+        0.4948904158955636
+      ],
+      "p_value": 0.6773327486099096,
+      "n_economies": 43,
+      "inferential_caution": ""
+    },
+    "Developed Asia & Oceania": {
+      "estimate": -0.055888510966821,
+      "ci95": [
+        -0.3573733889541855,
+        0.2455963670205435
+      ],
+      "p_value": 0.7150648392089621,
+      "n_economies": 8,
+      "inferential_caution": ""
+    },
+    "China": {
+      "estimate": 0.5920008010814353,
+      "ci95": [
+        0.5450462752240268,
+        0.6389553269388437
+      ],
+      "p_value": 1.5888369210359875e-62,
+      "n_economies": 1,
+      "inferential_caution": "Single-economy development group; clustered inference for this regional slope requires additional caution."
+    },
+    "India": {
+      "estimate": 0.6991784533670825,
+      "ci95": [
+        0.6176379291182206,
+        0.7807189776159444
+      ],
+      "p_value": 3.742388582629465e-40,
+      "n_economies": 1,
+      "inferential_caution": "Single-economy development group; clustered inference for this regional slope requires additional caution."
+    },
+    "Global South": {
+      "estimate": 0.801321958631356,
+      "ci95": [
+        0.6340035064649893,
+        0.9686404107977228
+      ],
+      "p_value": 1.092028355497933e-17,
+      "n_economies": 144,
+      "inferential_caution": ""
+    }
+  },
+  "decoupling": {
+    "annual_positive_gdp_growth_observations": {
+      "Europe & North America": {
+        "Absolute decoupling": 49.05320108205591,
+        "Relative decoupling": 27.50225428313796,
+        "Coupled expansion": 23.44454463480613
+      },
+      "Developed Asia & Oceania": {
+        "Absolute decoupling": 44.4954128440367,
+        "Relative decoupling": 35.321100917431195,
+        "Coupled expansion": 20.18348623853211
+      },
+      "China": {
+        "Absolute decoupling": 14.705882352941178,
+        "Relative decoupling": 76.47058823529412,
+        "Coupled expansion": 8.823529411764707
+      },
+      "India": {
+        "Absolute decoupling": 6.25,
+        "Relative decoupling": 68.75,
+        "Coupled expansion": 25.0
+      },
+      "Global South": {
+        "Absolute decoupling": 34.33984606275903,
+        "Relative decoupling": 23.120189461219656,
+        "Coupled expansion": 42.53996447602131
+      }
+    },
+    "long_period_1990_2024": {
+      "Europe & North America": {
+        "Absolute decoupling": 97.5,
+        "Relative decoupling": 2.5,
+        "Coupled expansion": 0.0
+      },
+      "Developed Asia & Oceania": {
+        "Absolute decoupling": 87.5,
+        "Relative decoupling": 12.5,
+        "Coupled expansion": 0.0
+      },
+      "China": {
+        "Absolute decoupling": 0.0,
+        "Relative decoupling": 100.0,
+        "Coupled expansion": 0.0
+      },
+      "India": {
+        "Absolute decoupling": 0.0,
+        "Relative decoupling": 100.0,
+        "Coupled expansion": 0.0
+      },
+      "Global South": {
+        "Absolute decoupling": 19.469026548672566,
+        "Relative decoupling": 33.6283185840708,
+        "Coupled expansion": 46.902654867256636
+      }
+    }
+  },
+  "governance": {
+    "specification_sensitivity": {
+      "Government Effectiveness": {
+        "Baseline linear governance interaction": {
+          "estimate": -0.0429555429252755,
+          "ci95": [
+            -0.0695830768126729,
+            -0.0163280090378781
+          ],
+          "p_value_holm": 0.0051203699431344
+        },
+        "Region-adjusted governance interaction": {
+          "estimate": -0.01021199156856,
+          "ci95": [
+            -0.0350782298031774,
+            0.0146542466660572
+          ],
+          "p_value_holm": 1.0
+        },
+        "Quadratic-GDP governance interaction": {
+          "estimate": 0.0262491759173475,
+          "ci95": [
+            0.0009216991402689,
+            0.0515766526944262
+          ],
+          "p_value_holm": 0.0423016178960279
+        },
+        "Region + quadratic governance interaction": {
+          "estimate": 0.0287226032479043,
+          "ci95": [
+            0.0039496327683502,
+            0.0534955737274584
+          ],
+          "p_value_holm": 0.0232947391219941
+        }
+      },
+      "Regulatory Quality": {
+        "Baseline linear governance interaction": {
+          "estimate": -0.0463875909909776,
+          "ci95": [
+            -0.0763761513388254,
+            -0.0163990306431297
+          ],
+          "p_value_holm": 0.0052070748205493
+        },
+        "Region-adjusted governance interaction": {
+          "estimate": -0.0037791173715897,
+          "ci95": [
+            -0.0348234660623496,
+            0.0272652313191701
+          ],
+          "p_value_holm": 1.0
+        },
+        "Quadratic-GDP governance interaction": {
+          "estimate": 0.0386468005376794,
+          "ci95": [
+            0.0080085047947616,
+            0.0692850962805972
+          ],
+          "p_value_holm": 0.0299219837674581
+        },
+        "Region + quadratic governance interaction": {
+          "estimate": 0.0448120228974761,
+          "ci95": [
+            0.0137835910788516,
+            0.0758404547161006
+          ],
+          "p_value_holm": 0.0097402623471112
+        }
+      },
+      "Rule of Law": {
+        "Baseline linear governance interaction": {
+          "estimate": -0.0381601528012675,
+          "ci95": [
+            -0.0753620664933018,
+            -0.0009582391092332
+          ],
+          "p_value_holm": 0.0444389934055836
+        },
+        "Region-adjusted governance interaction": {
+          "estimate": 0.0104354700854691,
+          "ci95": [
+            -0.0249566742163101,
+            0.0458276143872484
+          ],
+          "p_value_holm": 1.0
+        },
+        "Quadratic-GDP governance interaction": {
+          "estimate": 0.046097727487381,
+          "ci95": [
+            0.0111623182967521,
+            0.0810331366780099
+          ],
+          "p_value_holm": 0.0299219837674581
+        },
+        "Region + quadratic governance interaction": {
+          "estimate": 0.0582471986383157,
+          "ci95": [
+            0.0236962530274721,
+            0.0927981442491593
+          ],
+          "p_value_holm": 0.003175965743027
+        }
+      }
+    },
+    "common_balanced_2002_2024": {
+      "Government Effectiveness": {
+        "estimate": -0.0448631498261613,
+        "ci95": [
+          -0.0769863575857425,
+          -0.0127399420665801
+        ],
+        "p_value": 0.0064743453590095,
+        "p_value_holm": 0.0194230360770286
+      },
+      "Regulatory Quality": {
+        "estimate": -0.0295086616920741,
+        "ci95": [
+          -0.0671317592453597,
+          0.0081144358612114
+        ],
+        "p_value": 0.1234128750744461,
+        "p_value_holm": 0.2468257501488922
+      },
+      "Rule of Law": {
+        "estimate": -0.0331502832971939,
+        "ci95": [
+          -0.0798281748616722,
+          0.0135276082672843
+        ],
+        "p_value": 0.1627519424393653,
+        "p_value_holm": 0.2468257501488922
+      }
+    },
+    "between_within_decomposition": {
+      "Government Effectiveness": {
+        "between": {
+          "estimate": -0.1781853734407579,
+          "ci95": [
+            -0.2708225117157694,
+            -0.0855482351657464
+          ],
+          "p_value_holm": 0.0005960440271969
+        },
+        "within": {
+          "estimate": -0.0022340778476874,
+          "ci95": [
+            -0.0275875678757345,
+            0.0231194121803596
+          ],
+          "p_value_holm": 1.0
+        }
+      },
+      "Regulatory Quality": {
+        "between": {
+          "estimate": -0.176677984224312,
+          "ci95": [
+            -0.2882051463908252,
+            -0.0651508220577989
+          ],
+          "p_value_holm": 0.0020565017729458
+        },
+        "within": {
+          "estimate": 0.003413754070539,
+          "ci95": [
+            -0.0279648821320002,
+            0.0347923902730783
+          ],
+          "p_value_holm": 1.0
+        }
+      },
+      "Rule of Law": {
+        "between": {
+          "estimate": -0.1875389069255648,
+          "ci95": [
+            -0.2891614899617764,
+            -0.0859163238893531
+          ],
+          "p_value_holm": 0.0007010813164599
+        },
+        "within": {
+          "estimate": 0.0287775591819109,
+          "ci95": [
+            -0.0090119967360244,
+            0.0665671150998463
+          ],
+          "p_value_holm": 0.4042025970285987
+        }
+      }
+    }
+  },
+  "regional_ekc": [
+    {
+      "region": "Europe_NorthAmerica",
+      "region_display": "Europe & North America",
+      "beta1_log_gdp": 28.12820905182124,
+      "beta1_std_error": 6.495190744344747,
+      "beta1_ci95_low": 14.897938452531992,
+      "beta1_ci95_high": 41.358479651110486,
+      "beta1_p_value": 0.000137188977033,
+      "beta2_log_gdp_sq": -1.386691202670805,
+      "beta2_std_error": 0.3128521003509409,
+      "beta2_ci95_low": -2.023950077447162,
+      "beta2_ci95_high": -0.7494323278944478,
+      "beta2_p_value": 0.0001025083750103,
+      "r_squared": 0.8458173899582853,
+      "adjusted_r_squared": 0.836180976830678,
+      "aic": -115.66320537552778,
+      "bic": -110.99716119105956,
+      "n_obs": 35,
+      "observed_min_gdp": 23679.55660389266,
+      "observed_max_gdp": 41680.12332734877,
+      "elasticity_at_min_gdp": 0.1936826234656301,
+      "elasticity_at_max_gdp": -1.3744218207108965,
+      "turning_point_log_gdp": 10.142203613048654,
+      "turning_point_gdp": 25392.359814361647,
+      "turning_point_inside_sample": true,
+      "turning_point_position_pct_of_log_income_range": 12.35138540579428,
+      "n_obs_below_turning_point": 6,
+      "n_obs_above_turning_point": 29,
+      "share_obs_below_turning_point": 0.1714285714285714,
+      "share_obs_above_turning_point": 0.8285714285714286,
+      "ekc_sign_pattern": true,
+      "within_sample_ekc_candidate": true,
+      "covariance": "HAC(2) + small-sample correction + t inference",
+      "interpretation_note": "The quadratic model satisfies the Script 08 within-sample EKC candidate screening rule. The estimated turning point is approximately 25,392 GDP per capita, within the observed range of 23,680 to 41,680. Approximately 17.1% of observations lie below the turning point and 82.9% lie above it. This remains exploratory evidence from a regional time-series quadratic specification and is not causal or structural proof of an Environmental Kuznets Curve.",
+      "source_script": "08",
+      "source_file": "data/analysis/regression_results/regional_ekc_results.csv"
+    },
+    {
+      "region": "DevelopedAsia_Oceania",
+      "region_display": "Developed Asia & Oceania",
+      "beta1_log_gdp": 51.16488988904472,
+      "beta1_std_error": 6.9784614960363385,
+      "beta1_ci95_low": 36.950228981715846,
+      "beta1_ci95_high": 65.37955079637361,
+      "beta1_p_value": 2.4562186001209065e-08,
+      "beta2_log_gdp_sq": -2.459415521645814,
+      "beta2_std_error": 0.3371932778694556,
+      "beta2_ci95_low": -3.146255752528715,
+      "beta2_ci95_high": -1.7725752907629129,
+      "beta2_p_value": 2.730686204389871e-08,
+      "r_squared": 0.751629563400603,
+      "adjusted_r_squared": 0.7361064111131408,
+      "aic": -137.8513694092094,
+      "bic": -133.18532522474118,
+      "n_obs": 35,
+      "observed_min_gdp": 24693.032322461528,
+      "observed_max_gdp": 41412.735394228934,
+      "elasticity_at_min_gdp": 1.4144731984681511,
+      "elasticity_at_max_gdp": -1.1288936855576566,
+      "turning_point_log_gdp": 10.4018392660232,
+      "turning_point_gdp": 32920.1188819785,
+      "turning_point_inside_sample": true,
+      "turning_point_position_pct_of_log_income_range": 55.61420207804343,
+      "n_obs_below_turning_point": 17,
+      "n_obs_above_turning_point": 18,
+      "share_obs_below_turning_point": 0.4857142857142857,
+      "share_obs_above_turning_point": 0.5142857142857142,
+      "ekc_sign_pattern": true,
+      "within_sample_ekc_candidate": true,
+      "covariance": "HAC(2) + small-sample correction + t inference",
+      "interpretation_note": "The quadratic model satisfies the Script 08 within-sample EKC candidate screening rule. The estimated turning point is approximately 32,920 GDP per capita, within the observed range of 24,693 to 41,413. Approximately 48.6% of observations lie below the turning point and 51.4% lie above it. This remains exploratory evidence from a regional time-series quadratic specification and is not causal or structural proof of an Environmental Kuznets Curve.",
+      "source_script": "08",
+      "source_file": "data/analysis/regression_results/regional_ekc_results.csv"
+    },
+    {
+      "region": "China",
+      "region_display": "China",
+      "beta1_log_gdp": 0.8164660756638551,
+      "beta1_std_error": 0.7193224862727379,
+      "beta1_ci95_low": -0.6487458813257057,
+      "beta1_ci95_high": 2.281678032653416,
+      "beta1_p_value": 0.2647855400406124,
+      "beta2_log_gdp_sq": -0.0118735161394283,
+      "beta2_std_error": 0.0437821558318126,
+      "beta2_ci95_low": -0.1010548492018136,
+      "beta2_ci95_high": 0.0773078169229569,
+      "beta2_p_value": 0.7879826273868688,
+      "r_squared": 0.9711588356145248,
+      "adjusted_r_squared": 0.9693562628404324,
+      "aic": -65.27153365207255,
+      "bic": -60.60548946760431,
+      "n_obs": 35,
+      "observed_min_gdp": 917.270661782581,
+      "observed_max_gdp": 13121.6769905565,
+      "elasticity_at_min_gdp": 0.6544780082011726,
+      "elasticity_at_max_gdp": 0.5912962199065466,
+      "turning_point_log_gdp": 34.38181521279179,
+      "turning_point_gdp": 854737237262176.5,
+      "turning_point_inside_sample": false,
+      "turning_point_position_pct_of_log_income_range": 1035.8649634119952,
+      "n_obs_below_turning_point": 35,
+      "n_obs_above_turning_point": 0,
+      "share_obs_below_turning_point": 1.0,
+      "share_obs_above_turning_point": 0.0,
+      "ekc_sign_pattern": true,
+      "within_sample_ekc_candidate": false,
+      "covariance": "HAC(2) + small-sample correction + t inference",
+      "interpretation_note": "The fitted quadratic has the inverted-U sign pattern, but its estimated turning point lies outside the observed GDP-per-capita range. The sample therefore does not provide within-sample turning-point evidence for an Environmental Kuznets Curve.",
+      "source_script": "08",
+      "source_file": "data/analysis/regression_results/regional_ekc_results.csv"
+    },
+    {
+      "region": "India",
+      "region_display": "India",
+      "beta1_log_gdp": 1.4647813013794675,
+      "beta1_std_error": 0.7037868831093507,
+      "beta1_ci95_low": 0.0312143324841744,
+      "beta1_ci95_high": 2.8983482702747603,
+      "beta1_p_value": 0.0454924142622268,
+      "beta2_log_gdp_sq": -0.0513116817502829,
+      "beta2_std_error": 0.0500704367715208,
+      "beta2_ci95_low": -0.1533018239318045,
+      "beta2_ci95_high": 0.0506784604312385,
+      "beta2_p_value": 0.3131471691710205,
+      "r_squared": 0.9884928992915092,
+      "adjusted_r_squared": 0.9877737054972284,
+      "aic": -124.51073685569769,
+      "bic": -119.84469267122944,
+      "n_obs": 35,
+      "observed_min_gdp": 531.898397841583,
+      "observed_max_gdp": 2396.94999213544,
+      "elasticity_at_min_gdp": 0.8206706360450532,
+      "elasticity_at_max_gdp": 0.6661711744120417,
+      "turning_point_log_gdp": 14.273370618683623,
+      "turning_point_gdp": 1580687.787271507,
+      "turning_point_inside_sample": false,
+      "turning_point_position_pct_of_log_income_range": 531.1802561451142,
+      "n_obs_below_turning_point": 35,
+      "n_obs_above_turning_point": 0,
+      "share_obs_below_turning_point": 1.0,
+      "share_obs_above_turning_point": 0.0,
+      "ekc_sign_pattern": true,
+      "within_sample_ekc_candidate": false,
+      "covariance": "HAC(2) + small-sample correction + t inference",
+      "interpretation_note": "The fitted quadratic has the inverted-U sign pattern, but its estimated turning point lies outside the observed GDP-per-capita range. The sample therefore does not provide within-sample turning-point evidence for an Environmental Kuznets Curve.",
+      "source_script": "08",
+      "source_file": "data/analysis/regression_results/regional_ekc_results.csv"
+    },
+    {
+      "region": "Global_South",
+      "region_display": "Global South",
+      "beta1_log_gdp": 11.725948674582993,
+      "beta1_std_error": 1.1496488571284635,
+      "beta1_ci95_low": 9.384190584227223,
+      "beta1_ci95_high": 14.067706764938755,
+      "beta1_p_value": 1.3948261204867727e-11,
+      "beta2_log_gdp_sq": -0.6751216277850596,
+      "beta2_std_error": 0.0700137260272808,
+      "beta2_ci95_low": -0.8177349208299083,
+      "beta2_ci95_high": -0.5325083347402109,
+      "beta2_p_value": 5.479681803575575e-11,
+      "r_squared": 0.9954464316480118,
+      "adjusted_r_squared": 0.9951618336260126,
+      "aic": -234.1468034710889,
+      "bic": -229.48075928662067,
+      "n_obs": 35,
+      "observed_min_gdp": 2790.0211414153687,
+      "observed_max_gdp": 4642.079867901355,
+      "elasticity_at_min_gdp": 1.0133827217785587,
+      "elasticity_at_max_gdp": 0.3259558683590082,
+      "turning_point_log_gdp": 8.68432308490361,
+      "turning_point_gdp": 5909.538887304994,
+      "turning_point_inside_sample": false,
+      "turning_point_position_pct_of_log_income_range": 147.41680758288186,
+      "n_obs_below_turning_point": 35,
+      "n_obs_above_turning_point": 0,
+      "share_obs_below_turning_point": 1.0,
+      "share_obs_above_turning_point": 0.0,
+      "ekc_sign_pattern": true,
+      "within_sample_ekc_candidate": false,
+      "covariance": "HAC(2) + small-sample correction + t inference",
+      "interpretation_note": "The fitted quadratic has the inverted-U sign pattern, but its estimated turning point lies outside the observed GDP-per-capita range. The sample therefore does not provide within-sample turning-point evidence for an Environmental Kuznets Curve.",
+      "source_script": "08",
+      "source_file": "data/analysis/regression_results/regional_ekc_results.csv"
+    }
+  ]
+}
